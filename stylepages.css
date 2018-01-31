@@ -201,6 +201,29 @@ footer
 	transition: 1s;
 }
 
+/* TEST */
+
+.images
+{
+display: inline;
+margin: 0px;
+padding: 0px;
+}
+
+#content
+{
+display: block;
+margin: 0px;
+padding: 0px;
+position: relative;
+top: 90px;
+height: auto;
+max-width: auto;
+overflow-y: hidden;
+overflow-x:auto;
+}
+
+
 .cadre1:hover .souscadre1
 	{
 		width:100%;
