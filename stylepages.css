@@ -1,0 +1,236 @@
+/* feuille de style css */
+
+h1 /*titre*/
+{
+	font-size: 16;
+}
+
+html, body, .page
+{
+	height:100%
+}
+
+
+/* toute la page */
+
+body 
+{
+	/* fond de la page */
+    background-color: #202020;
+	
+	/* texte de la page */
+    color: #444444; 
+	font-family : Orator Std;
+	margin:0;
+}
+
+span /* couleur de la moitié du titre*/
+{color: #202020}
+
+.page
+{
+	display: flex;
+	flex-direction: column;
+	position:absolute;
+}
+
+p
+{
+	margin:0;
+}
+
+
+/*format des url*/
+
+a
+{
+	color: #444444;
+	font-family : Orator Std;
+	text-decoration: none;
+	
+	transition: 1s;
+}
+
+a:hover
+{
+   	color: cyan;
+}
+
+
+
+
+	/* SECTIONS / CONTENEURS */
+
+
+section {
+	padding: 13px;
+}
+
+.conteneur
+{
+    display: flex;
+    flex-direction: column;
+	overflow: hidden;
+}
+
+.aside {
+	padding-top:5%;
+	max-width: 433px;
+	color: #202020;
+}
+
+.p0
+{
+	min-height: 880px;
+}
+	
+.p2
+{
+	padding-right:5%;
+}
+
+.conteneur:nth-child(1)
+{
+    flex: 3;
+	background: linear-gradient(113.5deg, #444444 0px, #444444 359px, rgba(255,255,255,0) 360px,rgba(255,255,255,0) 100%);
+}
+
+header
+{
+	display: flex;
+	flex-direction: column;
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+	z-index: 1;
+	
+	background-color: #101010;
+}
+
+header .head
+{
+	margin-top: 20px;
+	text-align: center;
+	font-size: 50px;
+}
+
+footer
+{
+	display: flex;
+	flex-direction: column;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	z-index: 1;
+	background-color: #101010;
+	text-align: center;
+}
+
+
+
+	/* ARTICLES / CADRES */
+
+/*cadres*/
+
+.contact2
+{
+   	margin-top: 10px;
+	margin-bottom: 10px;
+	font-size : 11px;
+	text-align: center;
+		
+	transition:1s;
+}
+
+.cadre1
+{
+    width: 356px;
+    height: 174px;
+	padding:10px;
+	margin-bottom: 58px;
+	margin-right: 15px;
+	background-color: rgba(0,0,0, 0.2);
+	
+	position: relative;
+	
+	transition : 1s;
+}
+	
+.cadre2
+{
+   	width: 356px;
+    height: 678px;
+	padding:10px;
+	background-color: rgba(0,0,0, 0.2);
+	
+	position: relative;
+	
+	transition : 1s;
+}
+
+
+/*sous-cadres*/	
+	
+.souscadre1
+{
+	background: linear-gradient(120deg, #444444 0%, #444444 50%, rgba(0,0,0,0) 50.3%,rgba(0,0,0,0) 100%);
+	
+	width: 50%;
+    height: 100%;
+	
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	
+	transition: 1s;
+}
+
+.souscadre2
+{
+	background: linear-gradient(110deg, #444444 0%, #444444 40%, rgba(0,0,0,0) 40.3%,rgba(0,0,0,0) 100%);
+	
+	width: 45%;
+    height: 100%;
+	
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	
+	transition: 1s;
+}
+
+.cadre1:hover .souscadre1
+	{
+		width:100%;
+	}
+
+.cadre2:hover .souscadre2
+	{
+		width:100%;
+	}
+
+	
+/* page 2 & 3 */
+	
+.colonne
+	{
+    display: flex;
+	margin: auto;
+	}
+	
+.souscolonne
+	{
+	margin: auto;
+	width:600px;
+	text-align:center;
+	margin-top: 79px;
+	margin-bottom: 52px;
+	}
+	
+.sc1
+	{
+		margin-bottom:50px;
+		font-size : 65px;
+	}
