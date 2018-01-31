@@ -175,7 +175,7 @@ footer
 	
 .souscadre1
 {
-	background: linear-gradient(120deg, #444444 0%, #444444 50%, rgba(0,0,0,0) 50.3%,rgba(0,0,0,0) 100%);
+	background: linear-gradient(120deg, #444444 0%, #444444 50%, rgba(0,0,0,0) 50.1%,rgba(0,0,0,0) 100%);
 	
 	width: 50%;
     height: 100%;
@@ -203,26 +203,7 @@ footer
 
 /* TEST */
 
-.images
-{
-display: inline;
-margin: 0px;
-padding: 0px;
-}
-
-#content
-{
-display: block;
-margin: 0px;
-padding: 0px;
-position: relative;
-top: 90px;
-height: auto;
-max-width: auto;
-overflow-y: hidden;
-overflow-x:auto;
-}
-
+...
 
 .cadre1:hover .souscadre1
 	{
@@ -248,7 +229,7 @@ overflow-x:auto;
 	margin: auto;
 	width:600px;
 	text-align:center;
-	margin-top: 79px;
+	margin-top: 200px;
 	margin-bottom: 52px;
 	}
 	
