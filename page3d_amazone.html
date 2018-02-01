@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+  
+    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1>
+	<link rel="stylesheet" href="stylepages.css"/>
+	<link rel="stylesheet" href="stylepages.css">
+	<link rel="stylesheet" href="w3.css">
+
+  <body id="page2">
+  
+		
+		<article class="souscolonne3">
+		
+			<!-- <style>
+			.mySlides {display:none}
+			</style> -->
+			
+			    <p><h2 type="t1">Amazone warrior</h2>z-brush - 2016<p>
+			
+			<div class="w3-center">
+			  <div class="w3-section">
+			  </div>
+			  <button class="w3-button demo" onclick="currentDiv(1)">3/4</button> 
+			  <button class="w3-button demo" onclick="currentDiv(2)">face & profil</button> 
+			  <button class="w3-button demo" onclick="currentDiv(3)">Concept</button>
+			</div>
+			
+			<div class="w3-content" style="max-width:800px">
+			  <img class="mySlides" src="images/3d/amazone/02.png" alt="Amazone warrior - 2016" >
+			  <img class="mySlides" src="images/3d/amazone/03.png" alt="Amazone warrior - 2016" >
+			  <img class="mySlides" src="images/3d/amazone/01.png" alt="Amazone warrior concept - 2016" >
+			  <!-- snif <text class="mySlides"> - Il y a 700 ans environs -</br>
+					</br>Thuo Nah, 24 ans</br>
+					</br>Elle a vécu dans une forêt du bengale toute sa vie.</br>
+					Il y a peu, elle a perdu son frère, le tigre qui partageait sa vie, avec qui elle chassait et dormait.</br>
+					Elle est à présent seule, dans la forêt, son frère disparu ou mort.</br>
+					Elle vit dans les ruines d’un temple, probablement la raison pour laquelle une tribu des environs pense qu’elle est l’incarnation d’une déesse. Vénérée depuis son plus jeune âge, elle pense que c’est une situation normale. Elle est parée de bijoux rudimentaires et d'habits sommairement colorés offerts par les villageois.
+					Elle ne manque pas de vivres, et est très musclée à force de suivre son frère.></text> snif -->
+			</div>
+	
+		<script>
+			var slideIndex = 1;
+			showDivs(slideIndex);
+
+			function plusDivs(n) {
+			  showDivs(slideIndex += n);
+			}
+
+			function currentDiv(n) {
+			  showDivs(slideIndex = n);
+			}
+
+			function showDivs(n) {
+			  var i;
+			  var x = document.getElementsByClassName("mySlides");
+			  var dots = document.getElementsByClassName("demo");
+			  if (n > x.length) {slideIndex = 1}    
+			  if (n < 1) {slideIndex = x.length}
+			  for (i = 0; i < x.length; i++) {
+				 x[i].style.display = "none";  
+			  }
+			  for (i = 0; i < dots.length; i++) {
+				 dots[i].className = dots[i].className.replace(" w3-red", "");
+			  }
+			  x[slideIndex-1].style.display = "block";  
+			  dots[slideIndex-1].className += " w3-red";
+			}
+		</script>
+		
+
+		</article>
+	
+  </body>
+</html>

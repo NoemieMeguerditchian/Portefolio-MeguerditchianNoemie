@@ -17,12 +17,12 @@ h2
 }
 
 
-html, body, .page
+/*html, body, .page
 {
 	height:100%
 }
 
-
+*/
 
 /* toute la page */
 
@@ -37,6 +37,11 @@ body
 	margin:0;
 }
 
+body .page2
+{
+	height:none;
+}
+
 span /* couleur de la moitié du titre*/
 {color: #202020}
 
@@ -46,6 +51,9 @@ span /* couleur de la moitié du titre*/
 	flex-direction: column;
 	position:absolute;
 }
+
+
+
 
 p
 {
@@ -141,6 +149,10 @@ footer
 	text-align: center;
 }
 
+p .marge
+{
+	margin-left:58px;
+}
 
 
 	/* ARTICLES / CADRES */
@@ -233,6 +245,25 @@ footer
 	margin-bottom: 52px;
 	}	
 	
+	.souscolonne3
+	{
+	margin: auto;
+	text-align:center;
+	}
+	
+	.souscolonne4
+	{
+	margin: auto;
+	text-align:center;	
+	margin-top:70px;
+	}	
+	
+iframe
+{
+	border: none;
+	margin:auto;
+}
+	
 	
 /* page 2 & 3 */
 	
@@ -247,7 +278,7 @@ footer
 	margin: auto;
 	width:600px;
 	text-align:center;
-	margin-top: 200px;
+	margin-top: 100px;
 	margin-bottom: 52px;
 	}
 	
