@@ -2,13 +2,26 @@
 
 h1 /*titre*/
 {
-	font-size: 16;
+	font-size: 16;	
 }
+
+h2
+{
+	font-size: 14;	
+	color: #00b7b8;
+}
+
+.ruin
+{
+	margin-bottom:-20;
+}
+
 
 html, body, .page
 {
 	height:100%
 }
+
 
 
 /* toute la page */
@@ -201,9 +214,6 @@ footer
 	transition: 1s;
 }
 
-/* TEST */
-
-...
 
 .cadre1:hover .souscadre1
 	{
@@ -215,6 +225,14 @@ footer
 		width:100%;
 	}
 
+	.souscolonne2
+	{
+	margin: auto;
+	text-align:center;
+	margin-top: 100px;
+	margin-bottom: 52px;
+	}	
+	
 	
 /* page 2 & 3 */
 	
