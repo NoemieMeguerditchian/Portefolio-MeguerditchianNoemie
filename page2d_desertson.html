@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  
+    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1>
+	<link rel="stylesheet" href="stylepages.css"/>
+	<link rel="stylesheet" href="stylepages.css">
+	<link rel="stylesheet" href="w3.css">
+
+  <body id="page2">
+  
+		
+		<article class="souscolonne3">
+		
+			<!-- <style>
+			.mySlides {display:none}
+			</style> -->
+			
+			    <p><h2 type="t1">Desert Sons</h2>photoshop - 2017<p>
+			
+			<div class="w3-center">
+			  <div class="w3-section">
+			  </div>
+			  <button class="w3-button demo2" onclick="currentDiv(1)">Charadesigns</button> 
+			  <button class="w3-button demo2" onclick="currentDiv(2)">All</button>
+			</div>
+			
+			<div class="w3-content" style="max-width:800px">
+			  <img class="mySlides2" src="images/2d/desertson/son01.png" alt="vampyr chara - 2017" />
+			  <img class="mySlides2" src="images/2d/desertson/son02.png" alt="vampyr chara - 2017" />
+			</div>
+	
+		<script>
+			var slideIndex = 1;
+			showDivs(slideIndex);
+
+			function plusDivs(n) {
+			  showDivs(slideIndex += n);
+			}
+
+			function currentDiv(n) {
+			  showDivs(slideIndex = n);
+			}
+
+			function showDivs(n) {
+			  var i;
+			  var x = document.getElementsByClassName("mySlides2");
+			  var dots = document.getElementsByClassName("demo2");
+			  if (n > x.length) {slideIndex = 1}    
+			  if (n < 1) {slideIndex = x.length}
+			  for (i = 0; i < x.length; i++) {
+				 x[i].style.display = "none";  
+			  }
+			  for (i = 0; i < dots.length; i++) {
+				 dots[i].className = dots[i].className.replace(" w3-red", "");
+			  }
+			  x[slideIndex-1].style.display = "block";  
+			  dots[slideIndex-1].className += " w3-red";
+			}
+		</script>
+		
+	
+  </body>
+</html>
