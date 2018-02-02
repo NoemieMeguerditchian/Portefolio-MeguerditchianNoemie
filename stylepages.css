@@ -1,5 +1,10 @@
 /* feuille de style css */
 
+	@font-face {
+    font-family: orator10;
+    src: url(https://noemiemeguerditchian.github.io/Portefolio-MeguerditchianNoemie/orator10.ttf);
+	}
+
 h1 /*titre*/
 {
 	font-size: 16;	
@@ -24,17 +29,6 @@ h2
 
 
 /* toute la page */
-	@font-face {
-	font-family: 'orator10';
-	font-style: normal;
-	font-weight: normal;
-	src: local('Orator Std Medium'), url('OratorStd.woff') format('woff');
-	}
-	
-	@font-face {
-    font-family: orator10;
-    src: url(https://noemiemeguerditchian.github.io/Portefolio-MeguerditchianNoemie/orator10.ttf);
-}
 
 body 
 {
@@ -43,7 +37,7 @@ body
 	
 	/* texte de la page */
     color: #444444; 
-	font-family: 'Orator Std Medium', Arial, serif;
+	font-family: 'orator10', Arial, serif;
 	margin:0;
 }
 
@@ -76,7 +70,7 @@ p
 a
 {
 	color: #444444;
-	font-family: 'Orator Std Medium', Arial, serif;
+	font-family: 'orator10', Arial, serif;
 	text-decoration: none;
 	
 	transition: 1s;
