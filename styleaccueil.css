@@ -13,6 +13,13 @@ html, body, #page
 
 /* toute la page */
 
+	@font-face {
+	font-family: 'Orator Std Medium';
+	font-style: normal;
+	font-weight: normal;
+	src: local('Orator Std Medium'), url('OratorStd.woff') format('woff');
+	}
+
 body 
 {
 	/* fond de la page */
@@ -20,7 +27,7 @@ body
 	
 	/* texte de la page */
     color: #444444; 
-	font-family : Orator Std Medium;
+	font-family: 'Orator Std Medium', Arial, serif;
 	margin:0;
 }
 
@@ -46,7 +53,7 @@ p
 a
 {
 	color: #444444;
-	font-family : Orator Std;
+	font-family: 'Orator Std Medium', Arial, serif;
 	text-decoration: none;
 	
 	transition: 1s;
