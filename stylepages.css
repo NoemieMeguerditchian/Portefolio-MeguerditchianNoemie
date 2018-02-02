@@ -46,6 +46,21 @@ body .page2
 	height:none;
 }
 
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+.osto {
+	max-width: 50%;
+	height: auto;
+}
+
+.ostora {
+	max-width: 10%;
+	height: auto;
+}
+
 span /* couleur de la moitié du titre*/
 {color: #202020}
 
